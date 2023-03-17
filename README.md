@@ -24,4 +24,4 @@ If you'd like to contribute to the development of this extension or report any i
 
 ## License
 
-This extension is released under the [MIT License](https://github.com/ARMeeru/vscode-language-pack-carbon/LICENSE.md).
+This extension is released under the [MIT License](https://github.com/ARMeeru/vscode-language-pack-carbon/blob/main/LICENSE.md).
