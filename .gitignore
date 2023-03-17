@@ -1,0 +1,21 @@
+# line 2 and 3 auto-generated, the great nude modules
+node_modules
+*.vsix
+# macOS unnecessary files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js generated files
+node_modules/
+npm-debug.log*
+
+# Visual Studio Code generated files
+.vscode/
+*.code-workspace
+
+# Package lock files
+yarn.lock
+
+# Ignore the vsc-extension-quickstart.md file
+vsc-extension-quickstart.md

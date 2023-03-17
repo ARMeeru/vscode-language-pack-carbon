@@ -1,0 +1,38 @@
+{
+  "name": "vscode-language-pack-carbon",
+  "displayName": "Carbon Language Support",
+  "description": "Language support extension for Carbon",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "carbon",
+        "aliases": ["Carbon", "carbon"],
+        "extensions": [".carbon"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "carbon",
+        "scopeName": "source.carbon",
+        "path": "./syntaxes/carbon.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Carbon",
+        "path": "./themes/carbon-theme.json"
+      }
+    ]    
+  },
+  "scripts": {
+    "update": "cd ../vscode && npm run update-localization-extension carbon"
+  }
+}

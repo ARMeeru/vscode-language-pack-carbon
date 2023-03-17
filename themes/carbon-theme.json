@@ -1,0 +1,38 @@
+{
+    "name": "Carbon",
+    "type": "dark",
+    "colors": {},
+    "tokenColors": [
+      {
+        "scope": "keyword.control.carbon",
+        "settings": {
+          "foreground": "#FF4081"
+        }
+      },
+      {
+        "scope": "keyword.declaration.carbon",
+        "settings": {
+          "foreground": "#3FA7D6"
+        }
+      },
+      {
+        "scope": "keyword.constant.carbon",
+        "settings": {
+          "foreground": "#FF9800"
+        }
+      },
+      {
+        "scope": "keyword.other.carbon",
+        "settings": {
+          "foreground": "#7C4DFF"
+        }
+      },
+      {
+        "scope": "comment.line.carbon",
+        "settings": {
+          "foreground": "#50E3C2"
+        }
+      }
+    ]
+  }
+  
